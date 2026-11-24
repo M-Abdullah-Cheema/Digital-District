@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital District | A Data Driven Agency in Dubai</title>
+  <meta name="description" content="Digital District is a data driven agency in Dubai offering software development, SEO, performance marketing, design, AI automation and outsourcing services." />
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#home" class="logo" aria-label="Digital District home">
+        <img src="assets/logo.png" alt="Digital District" />
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav__link active">Home</a>
+        <a href="#clients" class="nav__link">Clients</a>
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#blog" class="nav__link">Blog</a>
+        <a href="#contact" class="nav__link">Contact</a>
+        <a href="#contact" class="btn btn--primary nav__cta">Free Consultation</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero banners ===== -->
+    <section class="hero" id="home">
+      <div class="hero__track" id="heroTrack">
+
+        <!-- Banner 1 -->
+        <article class="slide slide--blue is-active">
+          <div class="slide__stripe"></div>
+          <div class="container slide__inner">
+            <div class="slide__content">
+              <span class="eyebrow eyebrow--light">Software Development</span>
+              <h1>Ready to bring your <span class="hl">software ideas</span> to life?</h1>
+              <p>From MVPs to enterprise platforms, we design, build and scale web and mobile products that your customers love.</p>
+              <div class="slide__actions">
+                <a href="#contact" class="btn btn--green">Get a free consultation</a>
+                <a href="#services" class="btn btn--ghost">Explore services</a>
+              </div>
+            </div>
+            <div class="slide__visual" aria-hidden="true">
+              <div class="mock-window">
+                <div class="mock-window__bar"><i></i><i></i><i></i><span>app.digitaldistrict.ae</span></div>
+                <div class="mock-code">
+                  <p><b class="k">const</b> idea = <b class="s">'your vision'</b>;</p>
+                  <p><b class="k">await</b> design(idea);</p>
+                  <p><b class="k">await</b> build({ web, mobile, cloud });</p>
+                  <p><b class="k">return</b> <b class="s">launch()</b>; <b class="c">// 🚀</b></p>
+                </div>
+              </div>
+              <div class="float-card float-card--a">
+                <strong>120+</strong><span>Projects shipped</span>
+              </div>
+              <div class="float-card float-card--b">
+                <span class="dot"></span><span>Deployed to production</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Banner 2 -->
+        <article class="slide slide--navy">
+          <div class="slide__stripe"></div>
+          <div class="container slide__inner">
+            <div class="slide__content">
+              <span class="eyebrow eyebrow--light">Performance Marketing &amp; SEO</span>
+              <h1>Data driven growth that <span class="hl">pays for itself</span></h1>
+              <p>We turn clicks into customers with SEO, paid media and conversion optimisation, all measured, tested and reported in real time.</p>
+              <div class="slide__actions">
+                <a href="#contact" class="btn btn--green">Get a free audit</a>
+                <a href="#services" class="btn btn--ghost">See how we work</a>
+              </div>
+            </div>
+            <div class="slide__visual" aria-hidden="true">
+              <div class="chart-card">
+                <div class="chart-card__head">
+                  <span>Monthly Revenue</span>
+                  <b>+248%</b>
+                </div>
+                <div class="bars">
+                  <i style="--h:28%"></i><i style="--h:36%"></i><i style="--h:33%"></i><i style="--h:48%"></i>
+                  <i style="--h:55%"></i><i style="--h:62%"></i><i style="--h:74%"></i><i style="--h:92%"></i>
+                </div>
+              </div>
+              <div class="float-card float-card--a">
+                <strong>4.8x</strong><span>Average ROAS</span>
+              </div>
+              <div class="float-card float-card--b">
+                <span class="dot"></span><span>#1 ranking on Google</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Banner 3 -->
+        <article class="slide slide--gradient">
+          <div class="slide__stripe"></div>
+          <div class="container slide__inner">
+            <div class="slide__content">
+              <span class="eyebrow eyebrow--light">AI Automation</span>
+              <h1>Work smarter with <span class="hl">AI powered</span> automation</h1>
+              <p>Chatbots, smart workflows and AI agents that save your team hours every week and keep your business running 24/7.</p>
+              <div class="slide__actions">
+                <a href="#contact" class="btn btn--green">Automate my business</a>
+                <a href="#services" class="btn btn--ghost">Learn more</a>
+              </div>
+            </div>
+            <div class="slide__visual" aria-hidden="true">
+              <div class="flow">
+                <div class="flow__node">📩 New lead</div>
+                <div class="flow__line"></div>
+                <div class="flow__node flow__node--ai">🤖 AI qualifies</div>
+                <div class="flow__line"></div>
+                <div class="flow__node">📅 Meeting booked</div>
+              </div>
+              <div class="float-card float-card--a">
+                <strong>70%</strong><span>Less manual work</span>
+              </div>
+              <div class="float-card float-card--b">
+                <span class="dot"></span><span>Running 24/7</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <button class="hero__arrow hero__arrow--prev" id="heroPrev" aria-label="Previous banner">&#8249;</button>
+      <button class="hero__arrow hero__arrow--next" id="heroNext" aria-label="Next banner">&#8250;</button>
+      <div class="hero__dots" id="heroDots"></div>
+    </section>
+
+    <!-- ===== Stats strip ===== -->
+    <section class="stats">
+      <div class="container stats__grid">
+        <div><strong data-count="120">0</strong><span>+ Projects delivered</span></div>
+        <div><strong data-count="80">0</strong><span>+ Happy clients</span></div>
+        <div><strong data-count="12">0</strong><span>+ Countries served</span></div>
+        <div><strong data-count="98">0</strong><span>% Client retention</span></div>
+      </div>
+    </section>
+
+    <!-- ===== Clients (tabs) ===== -->
+    <section class="section clients" id="clients">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Our Clients</span>
+          <h2>Trusted by brands across <span class="text-blue">every industry</span></h2>
+          <p>From fast growing startups to established enterprises, we help businesses in the UAE and beyond grow online.</p>
+        </div>
+
+        <div class="tabs" role="tablist" id="clientTabs">
+          <button class="tab is-active" role="tab" data-filter="all">All</button>
+          <button class="tab" role="tab" data-filter="ecommerce">E-commerce</button>
+          <button class="tab" role="tab" data-filter="realestate">Real Estate</button>
+          <button class="tab" role="tab" data-filter="health">Healthcare</button>
+          <button class="tab" role="tab" data-filter="fintech">Fintech</button>
+          <button class="tab" role="tab" data-filter="hospitality">Hospitality</button>
+        </div>
+
+        <div class="client-grid" id="clientGrid">
+          <div class="client" data-cat="ecommerce"><span class="client__mark">S</span>ShopNest</div>
+          <div class="client" data-cat="ecommerce"><span class="client__mark">L</span>Luxora</div>
+          <div class="client" data-cat="ecommerce"><span class="client__mark">K</span>Kartify</div>
+          <div class="client" data-cat="realestate"><span class="client__mark">D</span>DuneHomes</div>
+          <div class="client" data-cat="realestate"><span class="client__mark">M</span>Marina Estates</div>
+          <div class="client" data-cat="realestate"><span class="client__mark">B</span>BayView</div>
+          <div class="client" data-cat="health"><span class="client__mark">C</span>CareWell</div>
+          <div class="client" data-cat="health"><span class="client__mark">V</span>VitaClinic</div>
+          <div class="client" data-cat="fintech"><span class="client__mark">P</span>PayZen</div>
+          <div class="client" data-cat="fintech"><span class="client__mark">F</span>FinEdge</div>
+          <div class="client" data-cat="hospitality"><span class="client__mark">A</span>Azure Hotels</div>
+          <div class="client" data-cat="hospitality"><span class="client__mark">O</span>Oasis Dining</div>
+        </div>
+
+        <div class="testimonial">
+          <p>“Digital District rebuilt our website and took over our ads. Within six months our online sales tripled. They feel like part of our own team.”</p>
+          <div class="testimonial__author">
+            <span class="avatar">SA</span>
+            <div><strong>Sara Ahmed</strong><span>Marketing Director, ShopNest</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">What We Do</span>
+          <h2>Services built to <span class="text-blue">grow your business</span></h2>
+          <p>One partner for everything digital: strategy, build, launch and growth.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><path d="M8 6l-6 6 6 6M16 6l6 6-6 6M14 4l-4 16"/></svg>
+            </div>
+            <h3>Development</h3>
+            <p>Custom websites, web apps and mobile apps built with modern, scalable technology.</p>
+            <ul><li>Web &amp; mobile apps</li><li>Custom software &amp; SaaS</li><li>APIs &amp; integrations</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-5-5M8 11h6M11 8v6"/></svg>
+            </div>
+            <h3>SEO Services</h3>
+            <p>Rank higher on Google and get found by the customers already searching for you.</p>
+            <ul><li>Technical &amp; on-page SEO</li><li>Local SEO &amp; Google Maps</li><li>Content &amp; link building</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><path d="M3 17l6-6 4 4 8-8M15 7h6v6"/></svg>
+            </div>
+            <h3>Performance Marketing</h3>
+            <p>ROI focused ad campaigns on Google, Meta, TikTok and LinkedIn that drive real results.</p>
+            <ul><li>Google &amp; Meta Ads</li><li>Lead generation</li><li>Conversion rate optimisation</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><path d="M12 19l7-7 3 3-7 7-3-3z"/><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><circle cx="11" cy="11" r="2"/></svg>
+            </div>
+            <h3>Design Services</h3>
+            <p>Beautiful, user friendly designs that make your brand memorable and easy to use.</p>
+            <ul><li>UI/UX design</li><li>Branding &amp; logo design</li><li>Marketing creatives</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><rect x="4" y="7" width="16" height="12" rx="3"/><path d="M12 3v4M9 13h.01M15 13h.01M2 12v3M22 12v3"/></svg>
+            </div>
+            <h3>AI Automation</h3>
+            <p>Put repetitive work on autopilot with AI chatbots, agents and smart workflows.</p>
+            <ul><li>AI chatbots &amp; agents</li><li>Workflow automation</li><li>CRM &amp; sales automation</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6"/><circle cx="17" cy="9" r="2.5"/><path d="M16 14.2c2.9.4 5 2.8 5 5.8"/></svg>
+            </div>
+            <h3>Outsourcing Services</h3>
+            <p>Scale your team on demand with dedicated developers, designers and marketers.</p>
+            <ul><li>Dedicated teams</li><li>Staff augmentation</li><li>White-label services</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>
+            </div>
+            <h3>Data &amp; Analytics</h3>
+            <p>Dashboards and tracking that show exactly what is working, so every decision is backed by data.</p>
+            <ul><li>GA4 &amp; tag management</li><li>BI dashboards</li><li>Marketing attribution</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg>
+            </div>
+            <h3>Social Media &amp; Content</h3>
+            <p>Scroll-stopping content and community management that build a loyal audience.</p>
+            <ul><li>Social media management</li><li>Video &amp; reels production</li><li>Influencer marketing</li></ul>
+          </article>
+
+          <article class="service">
+            <div class="service__icon">
+              <svg viewBox="0 0 24 24"><path d="M3 4h2l2.4 11.2a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.5L21 8H6"/><circle cx="10" cy="20" r="1.3"/><circle cx="18" cy="20" r="1.3"/></svg>
+            </div>
+            <h3>E-commerce Solutions</h3>
+            <p>High converting online stores on Shopify, WooCommerce or custom stacks, ready to sell.</p>
+            <ul><li>Shopify &amp; WooCommerce</li><li>Payment &amp; shipping setup</li><li>Marketplace integrations</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA band ===== -->
+    <section class="cta">
+      <div class="container cta__inner">
+        <div>
+          <h2>Have a project in mind?</h2>
+          <p>Book a free 30 minute consultation and get a custom growth plan for your business.</p>
+        </div>
+        <a href="#contact" class="btn btn--green btn--lg">Let's talk</a>
+      </div>
+    </section>
+
+    <!-- ===== Blog ===== -->
+    <section class="section blog" id="blog">
+      <div class="container">
+        <div class="section__head section__head--row">
+          <div>
+            <span class="eyebrow">Insights</span>
+            <h2>Latest from our <span class="text-blue">blog</span></h2>
+          </div>
+          <a href="#blog" class="link-arrow">View all articles &rarr;</a>
+        </div>
+
+        <div class="blog-grid">
+          <article class="post">
+            <div class="post__thumb post__thumb--1"><span>SEO</span></div>
+            <div class="post__body">
+              <time>Nov 18, 2026 · 6 min read</time>
+              <h3>10 SEO Strategies That Actually Work in 2026</h3>
+              <p>Search is changing fast with AI overviews. Here is how to keep ranking and keep getting traffic.</p>
+              <a href="#blog" class="link-arrow">Read more &rarr;</a>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post__thumb post__thumb--2"><span>AI Automation</span></div>
+            <div class="post__body">
+              <time>Nov 10, 2026 · 5 min read</time>
+              <h3>How AI Automation Can Save Your Team 20 Hours a Week</h3>
+              <p>Practical workflows small and medium businesses can automate today, without writing code.</p>
+              <a href="#blog" class="link-arrow">Read more &rarr;</a>
+            </div>
+          </article>
+          <article class="post">
+            <div class="post__thumb post__thumb--3"><span>Marketing</span></div>
+            <div class="post__body">
+              <time>Oct 29, 2026 · 7 min read</time>
+              <h3>Performance Marketing in the UAE: A Complete Guide</h3>
+              <p>Budgets, channels and benchmarks for running profitable ad campaigns in the GCC market.</p>
+              <a href="#blog" class="link-arrow">Read more &rarr;</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section contact" id="contact">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <span class="eyebrow">Contact Us</span>
+          <h2>Let's build something <span class="text-blue">great together</span></h2>
+          <p>Tell us about your project and our team will get back to you within one business day.</p>
+          <ul class="contact__list">
+            <li><span class="ci">📍</span>Office 1204, Bay Square, Business Bay, Dubai, UAE</li>
+            <li><span class="ci">📞</span><a href="tel:+971400000000">+971 4 000 0000</a></li>
+            <li><span class="ci">✉️</span><a href="mailto:hello@digitaldistrict.ae">hello@digitaldistrict.ae</a></li>
+            <li><span class="ci">🕘</span>Mon to Fri, 9:00 AM to 6:00 PM</li>
+          </ul>
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="field-row">
+            <label>Full name<input type="text" name="name" placeholder="John Doe" required /></label>
+            <label>Email<input type="email" name="email" placeholder="john@company.com" required /></label>
+          </div>
+          <div class="field-row">
+            <label>Phone<input type="tel" name="phone" placeholder="+971 50 000 0000" /></label>
+            <label>Service
+              <select name="service">
+                <option>Development</option>
+                <option>SEO Services</option>
+                <option>Performance Marketing</option>
+                <option>Design Services</option>
+                <option>AI Automation</option>
+                <option>Outsourcing Services</option>
+                <option>Data &amp; Analytics</option>
+                <option>Social Media &amp; Content</option>
+                <option>E-commerce Solutions</option>
+              </select>
+            </label>
+          </div>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us about your project..." required></textarea></label>
+          <button type="submit" class="btn btn--primary btn--block">Send message</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#home" class="footer__logo"><img src="assets/logo.png" alt="Digital District" /></a>
+        <p>A data driven agency helping businesses grow through technology, marketing and AI.</p>
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.6c0-1.3 0-3-1.9-3s-2.2 1.5-2.2 2.9V21H9z"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM12 2c-2.7 0-3 0-4.1.1C4.3 2.2 2.2 4.3 2.1 7.9 2 9 2 9.3 2 12s0 3 .1 4.1c.1 3.6 2.2 5.7 5.8 5.8 1.1.1 1.4.1 4.1.1s3 0 4.1-.1c3.6-.1 5.7-2.2 5.8-5.8.1-1.1.1-1.4.1-4.1s0-3-.1-4.1c-.1-3.6-2.2-5.7-5.8-5.8C15 2 14.7 2 12 2z"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6c0-.9.6-1 1-1h3V1h-4c-4 0-5 3-5 5v2H6v4h3v11h5V12h3.5l.5-4z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24"><path d="M17.8 2h3.4l-7.4 8.5L22.5 22h-6.8l-5.3-7-6.1 7H.9l7.9-9.1L.5 2h7l4.8 6.4zm-1.2 18h1.9L6.5 3.9H4.5z"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Development</a></li>
+          <li><a href="#services">SEO Services</a></li>
+          <li><a href="#services">Performance Marketing</a></li>
+          <li><a href="#services">Design Services</a></li>
+          <li><a href="#services">AI Automation</a></li>
+          <li><a href="#services">Outsourcing Services</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#home">About Us</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Get in touch</h4>
+        <ul class="footer__contact">
+          <li>Office 1204, Bay Square,<br />Business Bay, Dubai, UAE</li>
+          <li><a href="tel:+971400000000">+971 4 000 0000</a></li>
+          <li><a href="mailto:hello@digitaldistrict.ae">hello@digitaldistrict.ae</a></li>
+        </ul>
+        <form class="newsletter" id="newsletter">
+          <input type="email" placeholder="Your email" aria-label="Email for newsletter" required />
+          <button type="submit" aria-label="Subscribe">&rarr;</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <span>&copy; <span id="year"></span> Digital District. All rights reserved.</span>
+        <div><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
